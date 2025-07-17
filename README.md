@@ -1,2 +1,1 @@
-# Fire-Zone-FF
-Khiladi adda
+# FireZoneFF
