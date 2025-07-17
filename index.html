@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fire Zone FF</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0f0f0f;
+      color: white;
+    }
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px;
+      background-color: #000;
+      border-bottom: 2px solid #00ff00;
+    }
+    .menu-icon,
+    .notification-icon {
+      width: 24px;
+      height: 24px;
+    }
+    .wallet-box {
+      background-color: #111;
+      border: 2px solid #00ff00;
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-weight: bold;
+      color: #00ff00;
+      margin: 0 8px;
+    }
+    .banner {
+      width: 100%;
+      background-color: #111;
+      padding: 8px;
+      text-align: center;
+    }
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      padding: 12px;
+    }
+    .game-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #000;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px 0;
+      border-top: 2px solid #00ff00;
+    }
+    .bottom-nav img {
+      width: 24px;
+      height: 24px;
+    }
+    .bottom-nav div {
+      font-size: 12px;
+      color: #00ff00;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <img src="menu.png" class="menu-icon" alt="Menu">
+    <div class="wallet-box">
+      ₹10
+    </div>
+    <img src="bell.png" class="notification-icon" alt="Notifications">
+  </div>
+  <div class="banner">
+    <img src="freefiremax-banner.jpg" alt="Free Fire Max Banner" style="width: 100%; border-radius: 6px;">
+  </div>
+  <div class="games-grid">
+    <div class="game-card"><img src="freefiremax1.jpg" alt="Free Fire Max Mode 1"></div>
+    <div class="game-card"><img src="freefiremax2.jpg" alt="Free Fire Max Mode 2"></div>
+    <div class="game-card"><img src="freefiremax3.jpg" alt="Free Fire Max Mode 3"></div>
+    <div class="game-card"><img src="freefiremax4.jpg" alt="Free Fire Max Mode 4"></div>
+  </div>
+  <div class="bottom-nav">
+    <div>
+      <img src="rewards.png" alt="Rewards">
+      <div>Rewards</div>
+    </div>
+    <div>
+      <img src="home.png" alt="Home">
+      <div>Home</div>
+    </div>
+    <div>
+      <img src="winners.png" alt="Winners">
+      <div>Winners</div>
+    </div>
+    <div>
+      <img src="help.png" alt="Help">
+      <div>Help</div>
+    </div>
+  </div>
+</body>
+</html>
